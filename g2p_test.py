@@ -40,6 +40,9 @@ class G2PTest(unittest.TestCase):
     def test_ninho(self):
         self.rewrites("ninho", "niɲu")
 
+    def test_taça(self):
+        self.rewrites("taça", "tasa")
+
     def test_vez(self):
         self.rewrites("vez", "ves")
 
