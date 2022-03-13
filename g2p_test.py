@@ -37,6 +37,9 @@ class G2PTest(unittest.TestCase):
     def test_homem(self):
         self.rewrites("homem", "omem")
 
+    def test_nasco(self):
+        self.rewrites("nasço", "nasu")
+
     def test_ninho(self):
         self.rewrites("ninho", "niɲu")
 

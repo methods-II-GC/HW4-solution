@@ -71,7 +71,7 @@ G2P = (
     @ pynini.cdrewrite(pynini.cross("s", "z"), _vowel, _vowel, SIGMA_STAR)
     @ pynini.cdrewrite(pynini.cross("z", "s"), "", "[EOS]", SIGMA_STAR)
     @ pynini.cdrewrite(
-        pynini.cross(pynini.union("ç", "ss"), "s"), "", "", SIGMA_STAR
+        pynini.cross(pynini.union("ç", "sç", "ss"), "s"), "", "", SIGMA_STAR
     )
 ).optimize()
 
